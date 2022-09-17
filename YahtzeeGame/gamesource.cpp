@@ -152,7 +152,7 @@ int diceroll() {
 int dicelogic() {
 	int rollcount = 2;
 	printf("주사위를 굴립니다.\n");
-	for (int i = 0; i < 30; i++) {
+	for (int i = 0; i < 6; i++) {
 		printf("주사위 값 :%d, 클럭 : %d\n", diceroll(), clock());
 		Sleep(1300);
 		return 0;
